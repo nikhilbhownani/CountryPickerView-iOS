@@ -13,6 +13,14 @@
 		3158EA7422464BFA000404DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3158EA7322464BFA000404DE /* Assets.xcassets */; };
 		3158EA7722464BFA000404DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3158EA7522464BFA000404DE /* LaunchScreen.storyboard */; };
 		3158EA8222464BFA000404DE /* CountryPickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158EA8122464BFA000404DE /* CountryPickerViewTests.swift */; };
+		3158EA8D22464C64000404DE /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158EA8C22464C64000404DE /* CountryPickerView.swift */; };
+		3158EA8F22464C6F000404DE /* CountryPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3158EA8E22464C6F000404DE /* CountryPickerView.xib */; };
+		3158EA9322464E12000404DE /* CountryPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158EA9122464E12000404DE /* CountryPickerTableViewCell.swift */; };
+		3158EA9422464E12000404DE /* CountryPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3158EA9222464E12000404DE /* CountryPickerTableViewCell.xib */; };
+		3158EA972246503B000404DE /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 3158EA952246503B000404DE /* Images */; };
+		3158EA982246503B000404DE /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 3158EA962246503B000404DE /* Data */; };
+		3158EA9B22466B81000404DE /* CountryPickerImageNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158EA9922466B81000404DE /* CountryPickerImageNameCell.swift */; };
+		3158EA9C22466B81000404DE /* CountryPickerImageNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3158EA9A22466B81000404DE /* CountryPickerImageNameCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		3158EA7D22464BFA000404DE /* CountryPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3158EA8122464BFA000404DE /* CountryPickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerViewTests.swift; sourceTree = "<group>"; };
 		3158EA8322464BFA000404DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3158EA8C22464C64000404DE /* CountryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
+		3158EA8E22464C6F000404DE /* CountryPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryPickerView.xib; sourceTree = "<group>"; };
+		3158EA9122464E12000404DE /* CountryPickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerTableViewCell.swift; sourceTree = "<group>"; };
+		3158EA9222464E12000404DE /* CountryPickerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryPickerTableViewCell.xib; sourceTree = "<group>"; };
+		3158EA952246503B000404DE /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		3158EA962246503B000404DE /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+		3158EA9922466B81000404DE /* CountryPickerImageNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerImageNameCell.swift; sourceTree = "<group>"; };
+		3158EA9A22466B81000404DE /* CountryPickerImageNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryPickerImageNameCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +93,15 @@
 		3158EA6B22464BF8000404DE /* CountryPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				3158EA9022464DF8000404DE /* CountryPickerView */,
 				3158EA6C22464BF8000404DE /* AppDelegate.swift */,
 				3158EA6E22464BF8000404DE /* ViewController.swift */,
 				3158EA7022464BF8000404DE /* Main.storyboard */,
 				3158EA7322464BFA000404DE /* Assets.xcassets */,
 				3158EA7522464BFA000404DE /* LaunchScreen.storyboard */,
 				3158EA7822464BFA000404DE /* Info.plist */,
+				3158EA962246503B000404DE /* Data */,
+				3158EA952246503B000404DE /* Images */,
 			);
 			path = CountryPickerView;
 			sourceTree = "<group>";
@@ -94,6 +113,19 @@
 				3158EA8322464BFA000404DE /* Info.plist */,
 			);
 			path = CountryPickerViewTests;
+			sourceTree = "<group>";
+		};
+		3158EA9022464DF8000404DE /* CountryPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				3158EA8C22464C64000404DE /* CountryPickerView.swift */,
+				3158EA8E22464C6F000404DE /* CountryPickerView.xib */,
+				3158EA9122464E12000404DE /* CountryPickerTableViewCell.swift */,
+				3158EA9222464E12000404DE /* CountryPickerTableViewCell.xib */,
+				3158EA9922466B81000404DE /* CountryPickerImageNameCell.swift */,
+				3158EA9A22466B81000404DE /* CountryPickerImageNameCell.xib */,
+			);
+			path = CountryPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,8 +210,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3158EA7722464BFA000404DE /* LaunchScreen.storyboard in Resources */,
+				3158EA9422464E12000404DE /* CountryPickerTableViewCell.xib in Resources */,
 				3158EA7422464BFA000404DE /* Assets.xcassets in Resources */,
 				3158EA7222464BF8000404DE /* Main.storyboard in Resources */,
+				3158EA972246503B000404DE /* Images in Resources */,
+				3158EA9C22466B81000404DE /* CountryPickerImageNameCell.xib in Resources */,
+				3158EA8F22464C6F000404DE /* CountryPickerView.xib in Resources */,
+				3158EA982246503B000404DE /* Data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3158EA9322464E12000404DE /* CountryPickerTableViewCell.swift in Sources */,
+				3158EA9B22466B81000404DE /* CountryPickerImageNameCell.swift in Sources */,
 				3158EA6F22464BF8000404DE /* ViewController.swift in Sources */,
 				3158EA6D22464BF8000404DE /* AppDelegate.swift in Sources */,
+				3158EA8D22464C64000404DE /* CountryPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
